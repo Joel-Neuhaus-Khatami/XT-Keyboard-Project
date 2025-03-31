@@ -477,7 +477,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "xt_pcb.step",
       "svg": "",
       "vrml": ""
     },
