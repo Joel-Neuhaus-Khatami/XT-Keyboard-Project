@@ -2451,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 68.58) (xy 30.48 68.58)
+			(xy 27.94 68.58) (xy 33.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2631,13 +2631,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 76.2) (xy 27.94 76.2)
+			(xy 33.02 76.2) (xy 27.94 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d256b4ef-0638-4271-83e2-d61493ce3803")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d882b5-3192-407a-8401-792125e333e1")
 	)
 	(wire
 		(pts
@@ -2648,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "dee061b2-cf62-4363-8e60-b20077616884")
+	)
+	(wire
+		(pts
+			(xy 33.02 71.12) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08b3957-1c94-42a0-bfd2-92574f8c1a46")
 	)
 	(wire
 		(pts
@@ -3287,7 +3307,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 35.56 71.12 0)
+		(at 38.1 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3295,7 +3315,7 @@
 		(dnp no)
 		(uuid "0160c516-1078-45e5-a0cc-856776da3602")
 		(property "Reference" "J1"
-			(at 37.592 60.198 0)
+			(at 40.132 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3324,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 37.592 62.738 0)
+			(at 40.132 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,17 +3332,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 35.56 71.12 0)
+		(property "Footprint" "Downloads:MOLEX_781710004"
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3350,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 35.56 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
