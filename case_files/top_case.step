@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'top_case.step',
-/* time_stamp */ '2025-04-19T11:42:27+02:00',
+/* time_stamp */ '2025-04-19T12:47:10+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -9215,16 +9215,16 @@ SOLID_ANGLE_UNIT()
 #8798=PRODUCT_DEFINITION_SHAPE('',$,#8801);
 #8799=SHAPE_REPRESENTATION('',(#5228),#8792);
 #8800=PRODUCT_DEFINITION_CONTEXT('part definition',#8805,'design');
-#8801=PRODUCT_DEFINITION('Keyboard case','Keyboard case v80',#8802,#8800);
+#8801=PRODUCT_DEFINITION('Keyboard case','Keyboard case v81',#8802,#8800);
 #8802=PRODUCT_DEFINITION_FORMATION('',$,#8807);
-#8803=PRODUCT_RELATED_PRODUCT_CATEGORY('Keyboard case v80',
-'Keyboard case v80',(#8807));
+#8803=PRODUCT_RELATED_PRODUCT_CATEGORY('Keyboard case v81',
+'Keyboard case v81',(#8807));
 #8804=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#8805);
 #8805=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #8806=PRODUCT_CONTEXT('part definition',#8805,'mechanical');
-#8807=PRODUCT('Keyboard case','Keyboard case v80',$,(#8806));
+#8807=PRODUCT('Keyboard case','Keyboard case v81',$,(#8806));
 #8808=PRESENTATION_STYLE_ASSIGNMENT((#8812));
 #8809=PRESENTATION_STYLE_ASSIGNMENT((#8813));
 #8810=PRESENTATION_STYLE_ASSIGNMENT((#8814));
