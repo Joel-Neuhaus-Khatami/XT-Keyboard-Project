@@ -6,9 +6,9 @@ The keyboard itself is a modified XT layout, which was a very popular layout for
 The case is inspired by the IBM Model F77, Cherry G80-0418 and the modern NCR80.
 Later angularity and side-bezel thickness was inspired by the Pravetz 16 from the Soviet Union and various NCR G80 varieties, for example the NCR G80-0478.
 
-The pcb is hotswap with stepped caps lock, split left- and right shift, and split backspace compatibility.
+The pcb is designed with Kailh Hotswap Sockets (Although I just soldered my switches directly) with stepped caps lock, split left- and right shift, and split backspace compatibility.
 In addition, it is QMK compatible, due to the ATMega32u4 microchip. Further VIA compatibility to be added.
-Due to the case dimensions, the pcb does not have an onboard USB type C recepticle, rather using a Molex Pico EZmate connector and a daughterboard,
+Due to the case dimensions, the pcb does not have an onboard USB type C recepticle, rather using a 4-pin Molex Pico EZmate connector and a daughterboard,
 in this instance the UDB (Unified Daughterboard) C4.
 
 1. Layout
@@ -20,7 +20,7 @@ The layout is a mix of the standard HHKB for the Alphanumerical section, XT-esqu
 
 2. Schematics
 
-Early visualization of switch matrix
+Early visualization of switch matrix (This layout was changed tremendously due to later solutions for multiple layouts)
 ![switch_matrix](https://github.com/user-attachments/assets/95c27249-d844-417f-8f49-6b42e8cd5660)
 
 Switch matrix translated to Kicad schematics
@@ -61,7 +61,8 @@ Inside view of Bottom case
 Bottom
 ![image](https://github.com/user-attachments/assets/43b9d7e2-eea3-4b82-b5ae-db989650cbc5)
 
-
+To be posted:
+Produced aluminium case
 
 
 
