@@ -40,16 +40,27 @@ Fully produced PCB(Top) and PCBA (Bottom)
 3. Case
 
 Top case w/ plate
-![final](https://github.com/user-attachments/assets/68c99e36-cbb0-464d-b17c-7550f1b331e5)
+![image](https://github.com/user-attachments/assets/9f860870-c5fe-4c5c-9853-4eb4e035fadd)
+
 
 Top and Bottom case side profile
-![side](https://github.com/user-attachments/assets/beff7d99-0644-4bc3-8f55-bdb2cbf8d8c6)
+![image](https://github.com/user-attachments/assets/20adbc17-2f2d-4fc6-b934-0e6ee397a117)
+![image](https://github.com/user-attachments/assets/dd33151b-3cc4-4977-9c6c-7f1deee1dfd3)
+
 
 Back view including slit for UDB implementation
-![back](https://github.com/user-attachments/assets/80358bba-dc43-46c4-bf46-626a117b9963)
+![image](https://github.com/user-attachments/assets/30c8c7ed-502e-4187-ba88-faa97b426f0f)
+
 
 Inside view of Top case, showing plate top mount + UDB implementation
-![top_bottom](https://github.com/user-attachments/assets/417182de-cf54-46d3-a71b-26c8dc4cf741)
+![image](https://github.com/user-attachments/assets/522249ea-5ca1-4010-b5e6-2631f98cf70f)
+
+Inside view of Bottom case
+![image](https://github.com/user-attachments/assets/adb34f13-e858-492b-97dc-4f97b93c774f)
+
+Bottom
+![image](https://github.com/user-attachments/assets/43b9d7e2-eea3-4b82-b5ae-db989650cbc5)
+
 
 
 
