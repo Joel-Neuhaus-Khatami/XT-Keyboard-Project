@@ -32,6 +32,11 @@ Further schematics
 Finalized PCB
 ![final](https://github.com/user-attachments/assets/66b51cb9-12b7-4a6a-bea4-8284c0993cd4)
 
+Fully produced PCB(Top) and PCBA (Bottom) 
+![thumbnail_IMG_3259](https://github.com/user-attachments/assets/a71792a3-7f0e-4c3e-8232-403ee8409b14)
+![thumbnail_IMG_3261](https://github.com/user-attachments/assets/3286422d-99ae-460c-b10c-d0c275d928dd)
+
+
 3. Case
 
 Top case w/ plate
