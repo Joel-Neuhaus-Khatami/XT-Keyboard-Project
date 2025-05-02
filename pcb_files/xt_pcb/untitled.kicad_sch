@@ -627,6 +627,12 @@
 		(uuid "5d389e30-7f04-4e0a-af90-715dc1560d60")
 	)
 	(junction
+		(at 281.94 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6010e1bd-c797-4d7a-8342-00175e5fbb45")
+	)
+	(junction
 		(at 373.38 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1065,6 +1071,12 @@
 		(uuid "b972253f-8d22-4f45-96fb-a7cf39832848")
 	)
 	(junction
+		(at 292.1 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd028fbf-c69f-4e23-8632-cec80890b0d5")
+	)
+	(junction
 		(at 269.24 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1209,12 +1221,6 @@
 		(uuid "e193f92b-7b68-4715-b6c2-63ca14ce6c02")
 	)
 	(junction
-		(at 236.22 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e235d93c-0262-4d39-9a8a-1f80f0d20bdf")
-	)
-	(junction
 		(at 360.68 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1341,12 +1347,6 @@
 		(uuid "f503f55e-1220-4314-ae52-0638b30206ff")
 	)
 	(junction
-		(at 246.38 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5600bee-8332-4495-8cf6-ed12537dd638")
-	)
-	(junction
 		(at 510.54 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1446,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 223.52) (xy 236.22 223.52)
+			(xy 167.64 223.52) (xy 281.94 223.52)
 		)
 		(stroke
 			(width 0)
@@ -1603,6 +1603,16 @@
 			(type default)
 		)
 		(uuid "12c7b8e9-8429-4431-ab50-0e4f2e867846")
+	)
+	(wire
+		(pts
+			(xy 292.1 215.9) (xy 292.1 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14599900-1555-4eb2-b064-32927805f17f")
 	)
 	(wire
 		(pts
@@ -1766,16 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 223.52) (xy 327.66 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2947b5c5-9d5a-4d84-aa96-981f2e8b1615")
-	)
-	(wire
-		(pts
 			(xy 91.44 215.9) (xy 91.44 237.49)
 		)
 		(stroke
@@ -1836,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 215.9) (xy 246.38 237.49)
+			(xy 246.38 194.31) (xy 246.38 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 194.31) (xy 292.1 237.49)
+			(xy 292.1 194.31) (xy 292.1 215.9)
 		)
 		(stroke
 			(width 0)
@@ -2283,16 +2283,6 @@
 			(type default)
 		)
 		(uuid "77d9c8f2-efdd-4dae-937b-77502f91f2b4")
-	)
-	(wire
-		(pts
-			(xy 246.38 194.31) (xy 246.38 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78bbc618-2929-4bbf-93be-a4cba896b639")
 	)
 	(wire
 		(pts
@@ -3573,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "f1f1c599-94f3-4621-ad73-137dd10fc167")
+	)
+	(wire
+		(pts
+			(xy 281.94 223.52) (xy 327.66 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f234dc3a-b91c-4ded-9117-eda06a2ae82b")
 	)
 	(wire
 		(pts
@@ -6984,94 +6984,6 @@
 			(project ""
 				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 236.22 219.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "356b29f7-57e7-49a8-be80-8fc1c23bd25b")
-		(property "Reference" "D80"
-			(at 238.76 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 238.76 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 236.22 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 236.22 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 236.22 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 236.22 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2758c597-bb94-46b5-b196-89c4108d4ff8")
-		)
-		(pin "1"
-			(uuid "6410f7fc-c5f2-4137-92b5-f6966968acc6")
-		)
-		(instances
-			(project "xt_pcb"
-				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
-					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -12426,6 +12338,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 287.02 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bcbaef6-d426-497d-8c76-7f6ed4fb14bc")
+		(property "Reference" "SW18"
+			(at 287.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 287.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_6.25u"
+			(at 287.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 287.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "769c7bf7-470a-4284-ae8b-4d4046839830")
+		)
+		(pin "2"
+			(uuid "efb794af-15c0-4715-9af7-ec0bbc017941")
+		)
+		(instances
+			(project "xt_pcb"
+				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 533.4 219.71 90)
 		(unit 1)
@@ -12820,6 +12800,94 @@
 			(project "xt_pcb"
 				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
 					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 281.94 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9664e249-1325-4733-814b-a938ada57def")
+		(property "Reference" "D17"
+			(at 284.48 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 284.48 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 281.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 281.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 281.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 281.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7e6ff75-2a80-4bab-bdd1-77365a82b580")
+		)
+		(pin "1"
+			(uuid "700328d3-85cb-45d9-a585-193f1f02cc6c")
+		)
+		(instances
+			(project "xt_pcb"
+				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -14587,74 +14655,6 @@
 			(project "xt_pcb"
 				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
 					(reference "SW66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 241.3 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beeda5e7-c393-4414-86d5-dc9ac2e2f922")
-		(property "Reference" "SW85"
-			(at 241.3 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 241.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_6.25u"
-			(at 241.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 241.3 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f33a947-4831-4895-98f6-e73117a81978")
-		)
-		(pin "2"
-			(uuid "40994056-e535-4c63-b114-e75a7a6f9cff")
-		)
-		(instances
-			(project "xt_pcb"
-				(path "/0d76ce34-a40d-405c-820f-030fec8e9950/ec63edcb-951a-4690-ae8a-086f997c0dd7"
-					(reference "SW85")
 					(unit 1)
 				)
 			)
