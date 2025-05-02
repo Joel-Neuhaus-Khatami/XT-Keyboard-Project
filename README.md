@@ -6,10 +6,15 @@ The keyboard itself is a modified XT layout, which was a very popular layout for
 The case is inspired by the IBM Model F77, Cherry G80-0418 and the modern NCR80.
 Later angularity and side-bezel thickness was inspired by the Pravetz 16 from the Soviet Union and various NCR G80 varieties, for example the NCR G80-0478.
 
-The pcb is designed with Kailh Hotswap Sockets (Although I just soldered my switches directly) with stepped caps lock, split left- and right shift, and split backspace compatibility.
-In addition, it is QMK compatible, due to the ATMega32u4 microchip. Further VIA compatibility to be added.
+The pcb is designed with Kailh Hotswap Sockets (Although I just soldered my switches directly), all of which are south facing to avoid Cherry profile interference. 
+In addition, the pcb supports many different layout varieties, such as stepped caps lock, split left- and right shift, and split backspace compatibility.
+These layouts have also been designed to have the correct clearance for the Hotswap footprint.
+The PCB was originally designed with using the ATMega32u4, but after a failed iteration, it was replaced with an RP2040 PCB design instead.
+Using the RP2040 enabled QMK firmware compatibility + VIA.
 Due to the case dimensions, the pcb does not have an onboard USB type C recepticle, rather using a 4-pin Molex Pico EZmate connector and a daughterboard,
 in this instance the UDB (Unified Daughterboard) C4.
+The new RP2040 based pcb introduces new quality of life features, such as readily available GND, 3V, RESET, SWD and SWC pins for ISP programming, making troubleshooting a lot simpler
+should there be need to program the chip's bootloader.
 
 1. Layout
 
@@ -25,17 +30,6 @@ Early visualization of switch matrix (This layout was changed tremendously due t
 
 Switch matrix translated to Kicad schematics
 ![pcb_v3](https://github.com/user-attachments/assets/d059478e-083b-4bb1-b892-20b6382b63d1)
-
-Further schematics
-![Capture](https://github.com/user-attachments/assets/9a00347e-db73-4aa5-931f-5fcaa56ee3bb)
-
-Finalized PCB
-![final](https://github.com/user-attachments/assets/66b51cb9-12b7-4a6a-bea4-8284c0993cd4)
-
-Fully produced PCB(Top) and PCBA (Bottom) 
-![thumbnail_IMG_3259](https://github.com/user-attachments/assets/a71792a3-7f0e-4c3e-8232-403ee8409b14)
-![thumbnail_IMG_3261](https://github.com/user-attachments/assets/3286422d-99ae-460c-b10c-d0c275d928dd)
-
 
 3. Case
 
